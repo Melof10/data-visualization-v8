@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Video Game Sales - Treemap Diagram</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./style.css?v=1">
+
+  <!-- D3.js -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+
+  <!-- Application -->
+  <script src="./script.js?v=1" defer></script>
+</head>
+
+<body>
+
+  <main class="dashboard">
+
+    <header class="dashboard-header">
+
+      <span class="badge">DATA VISUALIZATION</span>
+
+      <h1 id="title">
+        Video Game Sales
+      </h1>
+
+      <p id="description" class="subtitle">
+        Top-Selling Video Games Grouped by Platform
+      </p>
+
+    </header>
+
+    <div class="chart-container">
+
+      <div id="chart"></div>
+
+      <div id="tooltip"></div>
+
+    </div>
+
+    <footer class="dashboard-footer">
+
+      <span>Source: freeCodeCamp Video Game Sales Dataset</span>
+
+      <span>Built with D3.js</span>
+
+    </footer>
+
+  </main>
+
+  <!-- freeCodeCamp Test Suite -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
