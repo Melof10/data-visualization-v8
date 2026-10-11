@@ -5,118 +5,118 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![D3.js](https://img.shields.io/badge/D3.js-Data%20Visualization-F9A03C?style=for-the-badge&logo=d3dotjs&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-Markup-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-Certification-0A0A23?style=for-the-badge&logo=freecodecamp&logoColor=white)
 
 ---
 
-## 📖 Descripción del proyecto
+## 📖 Project Overview
 
-Este repositorio contiene el desarrollo de los **cinco proyectos prácticos de la certificación Data Visualization de freeCodeCamp**, realizados como parte de mi formación académica en la **Tecnicatura en Data Science de Teclab**.
+This repository contains the **five practical projects from the freeCodeCamp Data Visualization Certification**, developed as part of my academic training in the **Data Science Associate Degree Program at Teclab**.
 
-El objetivo principal es aplicar conceptos de visualización de datos mediante el desarrollo de gráficos interactivos utilizando **D3.js (Data-Driven Documents)**, JavaScript, HTML y CSS.
+The main objective is to apply data visualization concepts by developing interactive charts using **D3.js (Data-Driven Documents)**, JavaScript, HTML, and CSS.
 
-A través de estos proyectos se trabajan diferentes técnicas para representar, interpretar y comunicar información proveniente de conjuntos de datos reales.
+Throughout these projects, different techniques are explored to represent, interpret, and communicate information from real-world datasets.
 
-Las visualizaciones permiten explorar información relacionada con:
+The visualizations cover several areas:
 
-- Crecimiento económico de Estados Unidos.
-- Rendimiento deportivo y análisis de datos históricos.
-- Variaciones de temperatura global.
-- Distribución geográfica de indicadores educativos.
-- Ventas de videojuegos y análisis de categorías.
+- Economic growth in the United States.
+- Sports performance and historical data analysis.
+- Global temperature variations.
+- Geographic distribution of educational indicators.
+- Video game sales and category analysis.
 
-Cada proyecto fue desarrollado de manera independiente, implementando visualizaciones SVG dinámicas, escalas, interacciones y componentes de navegación.
+Each project was developed independently, implementing dynamic SVG visualizations, scales, interactions, and navigation components.
 
-Además, se desarrolló una **página principal que centraliza los cinco proyectos**, permitiendo acceder a cada visualización desde una única interfaz.
+Additionally, a **main portfolio page was developed to centralize all five projects**, allowing users to access each visualization from a single interface.
 
 ---
 
-## 🎓 Contexto académico
+## 🎓 Academic Context
 
-| Información | Descripción |
+| Information | Description |
 |-------------|-------------|
-| **Institución** | Teclab |
-| **Carrera** | Tecnicatura en Data Science |
-| **Plataforma educativa** | freeCodeCamp |
-| **Certificación** | Data Visualization |
-| **Área de estudio** | Análisis y visualización de datos |
-| **Biblioteca principal** | D3.js |
-| **Lenguaje** | JavaScript |
-| **Cantidad de proyectos** | 5 |
-| **Modalidad** | Desarrollo práctico |
+| **Institution** | Teclab |
+| **Degree Program** | Data Science Associate Degree |
+| **Educational Platform** | freeCodeCamp |
+| **Certification** | Data Visualization |
+| **Field of Study** | Data Analysis and Visualization |
+| **Main Library** | D3.js |
+| **Programming Language** | JavaScript |
+| **Number of Projects** | 5 |
+| **Learning Approach** | Practical Development |
 
-### Objetivos de aprendizaje
+### Learning Objectives
 
-Los principales objetivos de esta práctica son:
+The main objectives of these projects are:
 
-1. Comprender los fundamentos de la visualización de datos.
-2. Manipular conjuntos de datos utilizando JavaScript.
-3. Utilizar D3.js para construir visualizaciones dinámicas.
-4. Implementar escalas lineales, temporales y categóricas.
-5. Representar información mediante elementos SVG.
-6. Desarrollar gráficos interactivos con eventos y tooltips.
-7. Interpretar datos económicos, deportivos, climáticos y geográficos.
-8. Aplicar técnicas de visualización jerárquica.
-9. Trabajar con datos geográficos utilizando TopoJSON.
-10. Desarrollar interfaces que faciliten la interpretación de información.
-
----
-
-# 🌐 Portfolio interactivo
-
-Se desarrolló una página principal que permite acceder a los cinco proyectos desde una única interfaz.
-
-### 🚀 Acceder al portfolio
-
-**[Ver Data Visualization Portfolio](https://melof10.github.io/data-visualization-v8/)**
-
-El portfolio incluye:
-
-- Acceso directo a cada visualización.
-- Descripción del objetivo de cada proyecto.
-- Identificación del tipo de gráfico.
-- Información sobre los conjuntos de datos utilizados.
-- Navegación entre proyectos.
-- Diseño responsive.
-- Identificación de las pruebas correspondientes de freeCodeCamp.
+1. Understand the fundamentals of data visualization.
+2. Manipulate datasets using JavaScript.
+3. Use D3.js to build dynamic visualizations.
+4. Implement linear, temporal, and categorical scales.
+5. Represent information using SVG elements.
+6. Develop interactive charts with events and tooltips.
+7. Interpret economic, sports, climate, and geographic data.
+8. Apply hierarchical data visualization techniques.
+9. Work with geographic data using TopoJSON.
+10. Develop interfaces that facilitate data interpretation.
 
 ---
 
-# 📁 Proyectos desarrollados
+# 🌐 Interactive Portfolio
+
+A main portfolio page was developed to provide access to all five projects through a single interface.
+
+### 🚀 Explore the Portfolio
+
+**[View Data Visualization Portfolio](https://melof10.github.io/data-visualization-v8/)**
+
+The portfolio includes:
+
+- Direct access to each visualization.
+- A brief description of each project's objective.
+- Identification of each visualization type.
+- Information about the datasets used.
+- Navigation between projects.
+- Responsive design.
+- Identification of the corresponding freeCodeCamp tests.
+
+---
+
+# 📁 Projects
 
 ## 1️⃣ Visualize Data with a Bar Chart
 
 ### 📊 United States GDP
 
-**Objetivo:** representar la evolución histórica del Producto Interno Bruto (PIB) de Estados Unidos mediante un gráfico de barras interactivo.
+**Objective:** Represent the historical evolution of the United States Gross Domestic Product (GDP) through an interactive bar chart.
 
-El proyecto permite visualizar el crecimiento económico estadounidense a lo largo del tiempo, utilizando datos históricos del PIB.
+This project visualizes U.S. economic growth over time using historical GDP data.
 
-### Conceptos aplicados
+### Concepts Applied
 
-- Gráficos de barras con D3.js.
-- Escalas temporales.
-- Escalas lineales.
-- Ejes X e Y.
-- Manipulación de datos JSON.
-- Generación dinámica de elementos SVG.
-- Tooltips interactivos.
-- Formato de fechas y valores económicos.
+- Bar charts with D3.js.
+- Time scales.
+- Linear scales.
+- X and Y axes.
+- JSON data manipulation.
+- Dynamic SVG element generation.
+- Interactive tooltips.
+- Date and economic value formatting.
 
-### Tecnologías
+### Technologies
 
 `JavaScript` `D3.js` `HTML5` `CSS3` `SVG`
 
-### Vista previa
+### Preview
 
 ![United States GDP - Bar Chart](./visualize-data-with-a-bar-chart/visualize-data-with-a-bar-chart.png)
 
-### 🔗 Visualización interactiva
+### 🔗 Interactive Visualization
 
-**[Ver Bar Chart](https://melof10.github.io/data-visualization-v8/visualize-data-with-a-bar-chart/)**
+**[View Bar Chart](https://melof10.github.io/data-visualization-v8/visualize-data-with-a-bar-chart/)**
 
-**Test freeCodeCamp:** `D3: Bar Chart`
+**freeCodeCamp Test:** `D3: Bar Chart`
 
 ---
 
@@ -124,37 +124,37 @@ El proyecto permite visualizar el crecimiento económico estadounidense a lo lar
 
 ### 🚴 Doping in Professional Bicycle Racing
 
-**Objetivo:** analizar el rendimiento de ciclistas profesionales mediante un gráfico de dispersión que relaciona los tiempos registrados con los años de competencia.
+**Objective:** Analyze professional cyclists' performance through a scatterplot graph that relates recorded race times to competition years.
 
-El proyecto utiliza datos históricos de ascensos al Alpe d'Huez, incorporando información relacionada con acusaciones de dopaje.
+This project uses historical Alpe d'Huez climbing records, including information related to doping allegations.
 
-La visualización permite identificar patrones, diferencias de rendimiento y posibles relaciones entre variables.
+The visualization helps identify patterns, performance differences, and potential relationships between variables.
 
-### Conceptos aplicados
+### Concepts Applied
 
-- Gráficos de dispersión.
-- Representación de variables cuantitativas.
-- Escalas lineales y temporales.
-- Posicionamiento de elementos SVG.
-- Representación mediante coordenadas.
-- Diferenciación de categorías por colores.
-- Leyendas.
-- Tooltips interactivos.
-- Interpretación de relaciones entre variables.
+- Scatterplot graphs.
+- Quantitative variable representation.
+- Linear and temporal scales.
+- SVG element positioning.
+- Coordinate-based visualization.
+- Color-based category differentiation.
+- Legends.
+- Interactive tooltips.
+- Interpretation of relationships between variables.
 
-### Tecnologías
+### Technologies
 
 `JavaScript` `D3.js` `HTML5` `CSS3` `SVG`
 
-### Vista previa
+### Preview
 
 ![Cyclist Performance - Scatterplot Graph](./visualize-data-with-a-scatterplot-graph/visualize-data-with-a-scatterplot-graph.png)
 
-### 🔗 Visualización interactiva
+### 🔗 Interactive Visualization
 
-**[Ver Scatterplot Graph](https://melof10.github.io/data-visualization-v8/visualize-data-with-a-scatterplot-graph/)**
+**[View Scatterplot Graph](https://melof10.github.io/data-visualization-v8/visualize-data-with-a-scatterplot-graph/)**
 
-**Test freeCodeCamp:** `D3: Scatter Plot`
+**freeCodeCamp Test:** `D3: Scatter Plot`
 
 ---
 
@@ -162,38 +162,38 @@ La visualización permite identificar patrones, diferencias de rendimiento y pos
 
 ### 🌡️ Global Land-Surface Temperature
 
-**Objetivo:** representar las variaciones históricas de temperatura global mediante un mapa de calor.
+**Objective:** Represent historical global temperature variations through an interactive heat map.
 
-El proyecto utiliza registros mensuales de temperatura para identificar períodos más cálidos y más fríos a lo largo de más de dos siglos.
+This project uses monthly temperature records to identify warmer and colder periods across more than two centuries.
 
-La intensidad y tonalidad de los colores permite interpretar rápidamente las variaciones térmicas.
+Color intensity and shades make it easier to interpret temperature variations and historical trends.
 
-### Conceptos aplicados
+### Concepts Applied
 
-- Mapas de calor.
-- Visualización de series temporales.
-- Escalas de colores.
-- Escalas cuantizadas.
-- Representación de datos mediante matrices.
-- Análisis de variaciones térmicas.
-- Agrupación temporal por meses y años.
-- Leyendas de temperatura.
-- Tooltips interactivos.
-- Interpretación visual de tendencias climáticas.
+- Heat maps.
+- Time-series visualization.
+- Color scales.
+- Quantized scales.
+- Matrix-based data representation.
+- Temperature variation analysis.
+- Temporal grouping by month and year.
+- Temperature legends.
+- Interactive tooltips.
+- Visual interpretation of climate trends.
 
-### Tecnologías
+### Technologies
 
 `JavaScript` `D3.js` `HTML5` `CSS3` `SVG`
 
-### Vista previa
+### Preview
 
 ![Global Temperature - Heat Map](./visualize-data-with-a-heat-map/visualize-data-with-a-heat-map.png)
 
-### 🔗 Visualización interactiva
+### 🔗 Interactive Visualization
 
-**[Ver Heat Map](https://melof10.github.io/data-visualization-v8/visualize-data-with-a-heat-map/)**
+**[View Heat Map](https://melof10.github.io/data-visualization-v8/visualize-data-with-a-heat-map/)**
 
-**Test freeCodeCamp:** `D3: Heat Map`
+**freeCodeCamp Test:** `D3: Heat Map`
 
 ---
 
@@ -201,39 +201,39 @@ La intensidad y tonalidad de los colores permite interpretar rápidamente las va
 
 ### 🗺️ United States Educational Attainment
 
-**Objetivo:** visualizar la distribución geográfica del nivel educativo en los condados de Estados Unidos mediante un mapa coroplético.
+**Objective:** Visualize the geographic distribution of educational attainment across counties in the United States using a choropleth map.
 
-El proyecto representa el porcentaje de adultos mayores de 25 años que poseen una licenciatura universitaria o un título superior.
+This project represents the percentage of adults aged 25 and older who hold a bachelor's degree or higher.
 
-Cada condado se identifica mediante un código FIPS y se representa con una tonalidad asociada a su indicador educativo.
+Each county is identified by a FIPS code and represented using a color associated with its educational attainment indicator.
 
-### Conceptos aplicados
+### Concepts Applied
 
-- Visualización geográfica.
-- Mapas coropléticos.
-- Datos geoespaciales.
-- GeoJSON y TopoJSON.
-- Identificación geográfica mediante códigos FIPS.
-- Transformación de información geográfica.
-- Escalas cuantizadas de colores.
-- Representación de polígonos SVG.
-- Integración de conjuntos de datos.
-- Tooltips geográficos.
-- Interpretación espacial de indicadores sociales.
+- Geographic data visualization.
+- Choropleth maps.
+- Geospatial data.
+- GeoJSON and TopoJSON.
+- Geographic identification using FIPS codes.
+- Geographic data transformation.
+- Quantized color scales.
+- SVG polygon representation.
+- Dataset integration.
+- Geographic tooltips.
+- Spatial interpretation of social indicators.
 
-### Tecnologías
+### Technologies
 
 `JavaScript` `D3.js` `TopoJSON` `HTML5` `CSS3` `SVG`
 
-### Vista previa
+### Preview
 
 ![US Education - Choropleth Map](./visualize-data-with-a-choropleth-map/visualize-data-with-a-choropleth-map.png)
 
-### 🔗 Visualización interactiva
+### 🔗 Interactive Visualization
 
-**[Ver Choropleth Map](https://melof10.github.io/data-visualization-v8/visualize-data-with-a-choropleth-map/)**
+**[View Choropleth Map](https://melof10.github.io/data-visualization-v8/visualize-data-with-a-choropleth-map/)**
 
-**Test freeCodeCamp:** `D3: Choropleth`
+**freeCodeCamp Test:** `D3: Choropleth`
 
 ---
 
@@ -241,95 +241,95 @@ Cada condado se identifica mediante un código FIPS y se representa con una tona
 
 ### 🎮 Video Game Sales
 
-**Objetivo:** representar las ventas de videojuegos mediante un diagrama jerárquico de rectángulos proporcionales.
+**Objective:** Represent video game sales using a hierarchical diagram composed of proportional rectangles.
 
-El proyecto permite comparar el volumen de ventas de diferentes videojuegos y plataformas mediante el tamaño y color de cada elemento.
+This project allows users to compare sales volumes across different video games and platforms through the size and color of each element.
 
-Los rectángulos representan valores cuantitativos, mientras que los colores permiten identificar las diferentes categorías.
+Rectangles represent quantitative values, while colors identify different categories.
 
-### Conceptos aplicados
+### Concepts Applied
 
-- Visualización de datos jerárquicos.
-- Diagramas Treemap.
-- Estructuras de datos jerárquicas.
+- Hierarchical data visualization.
+- Treemap diagrams.
+- Hierarchical data structures.
 - `d3.hierarchy()`.
 - `d3.treemap()`.
-- Escalas ordinales.
-- Representación proporcional de valores.
-- Agrupación por categorías.
-- Distribución espacial de elementos SVG.
-- Leyendas categóricas.
-- Tooltips interactivos.
-- Comparación visual de magnitudes.
+- Ordinal scales.
+- Proportional value representation.
+- Category grouping.
+- Spatial distribution of SVG elements.
+- Categorical legends.
+- Interactive tooltips.
+- Visual comparison of magnitudes.
 
-### Tecnologías
+### Technologies
 
 `JavaScript` `D3.js` `HTML5` `CSS3` `SVG`
 
-### Vista previa
+### Preview
 
 ![Video Game Sales - Treemap Diagram](./visualize-data-with-a-treemap-diagram/visualize-data-with-a-treemap-diagram.png)
 
-### 🔗 Visualización interactiva
+### 🔗 Interactive Visualization
 
-**[Ver Treemap Diagram](https://melof10.github.io/data-visualization-v8/visualize-data-with-a-treemap-diagram/)**
+**[View Treemap Diagram](https://melof10.github.io/data-visualization-v8/visualize-data-with-a-treemap-diagram/)**
 
-**Test freeCodeCamp:** `D3: Tree Map`
-
----
-
-# 🛠️ Tecnologías utilizadas
-
-| Tecnología | Aplicación |
-|------------|------------|
-| **JavaScript (ES6+)** | Manipulación de datos y lógica de las visualizaciones |
-| **D3.js** | Construcción de gráficos interactivos |
-| **HTML5** | Estructura de las páginas |
-| **CSS3** | Diseño visual y estilos responsive |
-| **SVG** | Representación gráfica vectorial |
-| **TopoJSON** | Procesamiento de información geográfica |
-| **JSON** | Formato de los conjuntos de datos |
-| **Git** | Control de versiones |
-| **GitHub** | Repositorio de código |
-| **GitHub Pages** | Publicación de los proyectos |
+**freeCodeCamp Test:** `D3: Tree Map`
 
 ---
 
-# 🧠 Conceptos de Data Science aplicados
+# 🛠️ Technologies Used
 
-El desarrollo de estos proyectos permitió trabajar con conceptos fundamentales relacionados con el análisis y la comunicación de datos.
-
-### 📊 Visualización de datos
-
-Selección de representaciones gráficas según las características de los conjuntos de datos.
-
-### 📈 Análisis de series temporales
-
-Interpretación de la evolución de variables económicas y climáticas a lo largo del tiempo.
-
-### 🔎 Análisis de relaciones entre variables
-
-Representación de observaciones mediante gráficos de dispersión para identificar patrones y posibles asociaciones.
-
-### 🌍 Análisis geoespacial
-
-Representación de indicadores mediante mapas y datos geográficos.
-
-### 🧩 Análisis de datos jerárquicos
-
-Organización y representación proporcional de categorías y subcategorías.
-
-### 🎨 Codificación visual
-
-Utilización de colores, posiciones, tamaños y formas para comunicar información cuantitativa y categórica.
-
-### 🖱️ Interactividad
-
-Implementación de eventos y tooltips para explorar los datos de manera dinámica.
+| Technology | Application |
+|------------|-------------|
+| **JavaScript (ES6+)** | Data manipulation and visualization logic |
+| **D3.js** | Interactive chart development |
+| **HTML5** | Web page structure |
+| **CSS3** | Visual design and responsive styling |
+| **SVG** | Vector-based graphical representation |
+| **TopoJSON** | Geographic data processing |
+| **JSON** | Dataset format |
+| **Git** | Version control |
+| **GitHub** | Source code repository |
+| **GitHub Pages** | Project deployment and hosting |
 
 ---
 
-# 🏗️ Estructura del repositorio
+# 🧠 Applied Data Science Concepts
+
+The development of these projects provided practical experience with fundamental concepts related to data analysis and communication.
+
+### 📊 Data Visualization
+
+Selecting appropriate graphical representations based on the characteristics of different datasets.
+
+### 📈 Time-Series Analysis
+
+Interpreting the evolution of economic and climate variables over time.
+
+### 🔎 Relationship Analysis
+
+Representing observations through scatterplots to identify patterns and potential associations between variables.
+
+### 🌍 Geospatial Analysis
+
+Representing geographic indicators using maps and spatial datasets.
+
+### 🧩 Hierarchical Data Analysis
+
+Organizing and proportionally representing categories and subcategories.
+
+### 🎨 Visual Encoding
+
+Using colors, positions, sizes, and shapes to communicate quantitative and categorical information.
+
+### 🖱️ Interactivity
+
+Implementing events and tooltips to enable dynamic data exploration.
+
+---
+
+# 🏗️ Repository Structure
 
 ```text
 data-visualization-v8/
@@ -373,19 +373,19 @@ data-visualization-v8/
 
 ---
 
-# 📂 Datasets utilizados
+# 📂 Datasets
 
-Los proyectos utilizan conjuntos de datos públicos proporcionados por freeCodeCamp.
+The projects use publicly available datasets provided by freeCodeCamp.
 
-| Proyecto | Dataset |
-|----------|---------|
+| Project | Dataset |
+|---------|---------|
 | Bar Chart | US Gross Domestic Product |
 | Scatterplot | Cyclist Performance Data |
 | Heat Map | Global Temperature Data |
 | Choropleth | US Education & County Geographic Data |
 | Treemap | Video Game Sales Data |
 
-### Fuentes
+### Data Sources
 
 **Bar Chart**
 
@@ -411,112 +411,112 @@ https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sale
 
 ---
 
-# 🧪 Validación de proyectos
+# 🧪 Project Validation
 
-Cada proyecto fue desarrollado siguiendo los requisitos funcionales establecidos por freeCodeCamp.
+Each project was developed according to the functional requirements established by freeCodeCamp.
 
-Las pruebas permiten verificar:
+The automated tests verify:
 
-- Existencia de elementos HTML requeridos.
-- Correcta representación de los datos.
-- Generación de elementos SVG.
-- Correspondencia entre valores y representaciones gráficas.
-- Implementación de escalas.
-- Colores y leyendas.
-- Interactividad.
-- Funcionamiento de tooltips.
-- Atributos requeridos para cada visualización.
+- Presence of required HTML elements.
+- Correct data representation.
+- SVG element generation.
+- Correspondence between data values and graphical representations.
+- Scale implementation.
+- Colors and legends.
+- Interactive behavior.
+- Tooltip functionality.
+- Required data attributes for each visualization.
 
-Para ejecutar las pruebas, cada proyecto incorpora el sistema oficial de validación de freeCodeCamp.
+Each project includes the official freeCodeCamp testing suite.
 
-### Tests correspondientes
+### Corresponding Tests
 
-| Proyecto | Test |
-|----------|------|
+| Project | Test |
+|---------|------|
 | Bar Chart | `D3: Bar Chart` |
 | Scatterplot Graph | `D3: Scatter Plot` |
 | Heat Map | `D3: Heat Map` |
 | Choropleth Map | `D3: Choropleth` |
 | Treemap Diagram | `D3: Tree Map` |
 
-> Cada visualización incluye una indicación del test que debe seleccionarse en el panel de freeCodeCamp.
+> Each visualization includes an indication of the corresponding test to select in the freeCodeCamp testing panel.
 
 ---
 
-# 🚀 Ejecución local
+# 🚀 Running the Projects Locally
 
-### 1. Clonar el repositorio
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Melof10/data-visualization-v8.git
 ```
 
-### 2. Acceder al directorio
+### 2. Navigate to the Project Directory
 
 ```bash
 cd data-visualization-v8
 ```
 
-### 3. Iniciar un servidor local
+### 3. Start a Local Server
 
-Utilizando Python:
+Using Python:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-### 4. Abrir el navegador
+### 4. Open the Browser
 
 ```text
 http://localhost:8000
 ```
 
-Desde la página principal se puede acceder a las cinco visualizaciones.
+The main portfolio page provides access to all five visualizations.
 
-> Se requiere conexión a Internet para cargar D3.js y los datasets utilizados.
-
----
-
-# 📚 Aprendizajes obtenidos
-
-A través de estos proyectos se trabajaron diferentes enfoques para transformar datos en información visual.
-
-Entre los principales aprendizajes se destacan:
-
-- Comprensión del funcionamiento de D3.js.
-- Construcción de gráficos mediante SVG.
-- Manipulación de estructuras JSON.
-- Implementación de escalas y ejes.
-- Representación de datos temporales.
-- Visualización de información geográfica.
-- Construcción de diagramas jerárquicos.
-- Implementación de componentes interactivos.
-- Interpretación de diferentes tipos de visualizaciones.
-- Organización y publicación de proyectos web.
-
-Estos conocimientos complementan mi formación en **Data Science**, especialmente en las áreas de análisis exploratorio, visualización y comunicación de resultados.
+> An Internet connection is required to load D3.js and the datasets used by the projects.
 
 ---
 
-# 🎯 Conclusión
+# 📚 Key Learnings
 
-Este repositorio reúne cinco proyectos prácticos orientados al desarrollo de habilidades de visualización de datos utilizando D3.js.
+Throughout these projects, different approaches to transforming data into visual information were explored.
 
-Cada ejercicio aborda una técnica diferente de representación gráfica, permitiendo aplicar conceptos relacionados con datos temporales, cuantitativos, categóricos, geográficos y jerárquicos.
+The main learning outcomes include:
 
-El desarrollo de estas visualizaciones forma parte de mi proceso de formación en la **Tecnicatura en Data Science de Teclab**, complementado con los contenidos y desafíos prácticos de **freeCodeCamp**.
+- Understanding D3.js fundamentals.
+- Building charts using SVG.
+- Manipulating JSON data structures.
+- Implementing scales and axes.
+- Representing temporal data.
+- Visualizing geographic information.
+- Building hierarchical diagrams.
+- Implementing interactive components.
+- Interpreting different types of data visualizations.
+- Organizing and deploying web projects.
 
-El objetivo es fortalecer las competencias necesarias para analizar, interpretar y comunicar información mediante herramientas de programación y visualización.
+These skills complement my academic training in **Data Science**, particularly in exploratory data analysis, data visualization, and communicating analytical results.
 
 ---
 
-## 🔗 Enlaces
+# 🎯 Conclusion
 
-**Portfolio interactivo:**
+This repository brings together five practical projects focused on developing data visualization skills using D3.js.
+
+Each project explores a different visualization technique, applying concepts related to temporal, quantitative, categorical, geographic, and hierarchical data.
+
+The development of these visualizations is part of my academic training in the **Data Science Associate Degree Program at Teclab**, complemented by the practical challenges and educational content provided by **freeCodeCamp**.
+
+The main goal is to strengthen the skills required to analyze, interpret, and communicate information through programming and data visualization tools.
+
+---
+
+## 🔗 Links
+
+**Interactive Portfolio:**
 
 https://melof10.github.io/data-visualization-v8/
 
-**Repositorio GitHub:**
+**GitHub Repository:**
 
 https://github.com/Melof10/data-visualization-v8
 
@@ -530,6 +530,6 @@ https://www.teclab.edu.ar/
 
 ---
 
-**Desarrollado como parte de mi formación académica en Data Science — Teclab.**
+**Developed as part of my academic training in Data Science at Teclab.**
 
-*Proyectos prácticos basados en la certificación Data Visualization de freeCodeCamp.*
+*Practical projects based on the freeCodeCamp Data Visualization Certification.*
