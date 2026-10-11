@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>US Education - Choropleth Map</title>
+
+  <link rel="stylesheet" href="./style.css?v=1">
+
+  <!-- D3.js -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+
+  <!-- TopoJSON -->
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+
+  <!-- Application -->
+  <script src="./script.js?v=1" defer></script>
+</head>
+
+<body>
+
+  <main class="dashboard">
+
+    <header class="dashboard-header">
+
+      <span class="badge">DATA VISUALIZATION</span>
+
+      <h1 id="title">
+        United States Educational Attainment
+      </h1>
+
+      <p id="description" class="subtitle">
+        Percentage of adults age 25 and older with a bachelor's degree or higher · 2010–2014
+      </p>
+
+    </header>
+
+    <div class="chart-container">
+
+      <div id="chart"></div>
+
+      <div id="tooltip"></div>
+
+    </div>
+
+    <footer class="dashboard-footer">
+
+      <span>Source: USDA Economic Research Service</span>
+
+      <span>Built with D3.js & TopoJSON</span>
+
+    </footer>
+
+  </main>
+
+  <!-- freeCodeCamp Test Suite -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
