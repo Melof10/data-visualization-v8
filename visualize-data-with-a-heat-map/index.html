@@ -7,22 +7,18 @@
 
   <title>Global Temperature - Heat Map</title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css?v=3">
 
-  <!-- D3.js -->
   <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 
-  <!-- JavaScript -->
-  <script src="./script.js" defer></script>
+  <script src="./script.js?v=3" defer></script>
 </head>
 
 <body>
 
-  <div class="dashboard">
+  <main class="dashboard">
 
     <header class="dashboard-header">
-
       <span class="badge">DATA VISUALIZATION</span>
 
       <h1 id="title">Global Land-Surface Temperature</h1>
@@ -30,30 +26,21 @@
       <p id="description" class="subtitle">
         Monthly Temperature Variations · 1753–2015
       </p>
-
     </header>
 
     <div class="chart-container">
-
       <div id="chart"></div>
-
       <div id="tooltip"></div>
-
     </div>
 
     <footer class="dashboard-footer">
-
       <span>Source: freeCodeCamp Global Temperature Dataset</span>
-
       <span>Built with D3.js</span>
-
     </footer>
 
-  </div>
+  </main>
 
-  <!-- freeCodeCamp Test Suite -->
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 </body>
-
 </html>
