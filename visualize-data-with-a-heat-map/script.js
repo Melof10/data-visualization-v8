@@ -129,17 +129,20 @@ d3.json(DATA_URL)
       .range([0, chartWidth]);
 
     // ========================================
-    // Y SCALE - MONTHS
+    // Y SCALE - MONTHS (0 TO 11)
     // ========================================
+
+    // freeCodeCamp expects months from 0 to 11.
+    // Dataset months are from 1 to 12.
 
     const yScale = d3
       .scaleBand()
-      .domain(d3.range(1, 13))
+      .domain(d3.range(0, 12))
       .range([0, chartHeight])
       .padding(0);
 
     // ========================================
-    // AXIS X
+    // X AXIS
     // ========================================
 
     const xAxis = d3
@@ -159,14 +162,12 @@ d3.json(DATA_URL)
       .call(xAxis);
 
     // ========================================
-    // AXIS Y
+    // Y AXIS
     // ========================================
 
     const yAxis = d3
       .axisLeft(yScale)
-      .tickFormat(
-        d => months[d - 1]
-      );
+      .tickFormat(d => months[d]);
 
     chart
       .append("g")
@@ -202,7 +203,9 @@ d3.json(DATA_URL)
     // CELL DIMENSIONS
     // ========================================
 
-    const cellWidth = chartWidth / (maxYear - minYear + 1);
+    const cellWidth =
+      chartWidth / (maxYear - minYear + 1);
+
     const cellHeight = yScale.bandwidth();
 
     // ========================================
@@ -216,8 +219,8 @@ d3.json(DATA_URL)
       .append("rect")
       .attr("class", "cell")
 
-      // Required attributes
-      .attr("data-month", d => d.month)
+      // Required freeCodeCamp attributes
+      .attr("data-month", d => d.month - 1)
       .attr("data-year", d => d.year)
       .attr(
         "data-temp",
@@ -226,7 +229,7 @@ d3.json(DATA_URL)
 
       // Position
       .attr("x", d => xScale(d.year))
-      .attr("y", d => yScale(d.month))
+      .attr("y", d => yScale(d.month - 1))
 
       // Size
       .attr("width", cellWidth)
@@ -244,7 +247,8 @@ d3.json(DATA_URL)
 
       .on("mouseover", function (event, d) {
 
-        const temperature = baseTemperature + d.variance;
+        const temperature =
+          baseTemperature + d.variance;
 
         tooltip
           .attr("data-year", d.year)
@@ -259,7 +263,8 @@ d3.json(DATA_URL)
             </div>
 
             <div class="tooltip-variance">
-              Variance: ${d.variance > 0 ? "+" : ""}
+              Variance:
+              ${d.variance > 0 ? "+" : ""}
               ${d.variance.toFixed(2)} °C
             </div>
           `);
@@ -304,8 +309,12 @@ d3.json(DATA_URL)
     // ========================================
 
     const legendWidth = 420;
-    const legendX = (width - legendWidth) / 2;
-    const legendY = height - 65;
+
+    const legendX =
+      (width - legendWidth) / 2;
+
+    const legendY =
+      height - 65;
 
     const legend = svg
       .append("g")
@@ -315,14 +324,22 @@ d3.json(DATA_URL)
         `translate(${legendX},${legendY})`
       );
 
-    const legendCellWidth = legendWidth / colors.length;
+    const legendCellWidth =
+      legendWidth / colors.length;
+
+    // ========================================
+    // LEGEND RECTANGLES
+    // ========================================
 
     legend
       .selectAll("rect")
       .data(colors)
       .enter()
       .append("rect")
-      .attr("x", (d, i) => i * legendCellWidth)
+      .attr(
+        "x",
+        (d, i) => i * legendCellWidth
+      )
       .attr("y", 0)
       .attr("width", legendCellWidth)
       .attr("height", 16)
@@ -340,12 +357,21 @@ d3.json(DATA_URL)
     const legendAxis = d3
       .axisBottom(legendScale)
       .ticks(5)
-      .tickFormat(d => `${d.toFixed(1)}°`);
+      .tickFormat(
+        d => `${d.toFixed(1)}°`
+      );
 
     legend
       .append("g")
-      .attr("transform", "translate(0,16)")
+      .attr(
+        "transform",
+        "translate(0,16)"
+      )
       .call(legendAxis);
+
+    // ========================================
+    // LEGEND TITLE
+    // ========================================
 
     legend
       .append("text")
