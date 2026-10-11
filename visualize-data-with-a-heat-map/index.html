@@ -8,9 +8,9 @@
   <title>Global Temperature - Heat Map</title>
 
   <link rel="stylesheet" href="./style.css?v=3">
+  <link rel="stylesheet" href="../project-navigation.css">
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
-
   <script src="./script.js?v=3" defer></script>
 </head>
 
@@ -18,7 +18,21 @@
 
   <main class="dashboard">
 
+    <nav class="project-navigation">
+
+      <a href="../" class="back-link">
+        ← Back to Portfolio
+      </a>
+
+      <div class="test-selector">
+        <span class="test-selector-label">Select test:</span>
+        <strong>D3: Heat Map</strong>
+      </div>
+
+    </nav>
+
     <header class="dashboard-header">
+
       <span class="badge">DATA VISUALIZATION</span>
 
       <h1 id="title">Global Land-Surface Temperature</h1>
@@ -26,11 +40,15 @@
       <p id="description" class="subtitle">
         Monthly Temperature Variations · 1753–2015
       </p>
+
     </header>
 
     <div class="chart-container">
+
       <div id="chart"></div>
+
       <div id="tooltip"></div>
+
     </div>
 
     <footer class="dashboard-footer">
@@ -43,4 +61,5 @@
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 </body>
+
 </html>

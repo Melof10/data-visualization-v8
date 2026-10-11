@@ -8,20 +8,31 @@
   <title>US Education - Choropleth Map</title>
 
   <link rel="stylesheet" href="./style.css?v=1">
+  <link rel="stylesheet" href="../project-navigation.css">
 
-  <!-- D3.js -->
   <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 
-  <!-- TopoJSON -->
   <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
 
-  <!-- Application -->
   <script src="./script.js?v=1" defer></script>
 </head>
 
 <body>
 
   <main class="dashboard">
+
+    <nav class="project-navigation">
+
+      <a href="../" class="back-link">
+        ← Back to Portfolio
+      </a>
+
+      <div class="test-selector">
+        <span class="test-selector-label">Select test:</span>
+        <strong>D3: Choropleth</strong>
+      </div>
+
+    </nav>
 
     <header class="dashboard-header">
 
@@ -46,16 +57,12 @@
     </div>
 
     <footer class="dashboard-footer">
-
       <span>Source: USDA Economic Research Service</span>
-
       <span>Built with D3.js & TopoJSON</span>
-
     </footer>
 
   </main>
 
-  <!-- freeCodeCamp Test Suite -->
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 </body>

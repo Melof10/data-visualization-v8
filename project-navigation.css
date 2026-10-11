@@ -1,0 +1,68 @@
+/* ========================================
+   PROJECT NAVIGATION
+======================================== */
+
+.project-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #64748b;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.back-link:hover {
+  color: #2563eb;
+}
+
+/* ========================================
+   TEST BADGE
+======================================== */
+
+.test-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  padding: 9px 13px;
+}
+
+.test-selector-label {
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.test-selector strong {
+  color: #1d4ed8;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media (max-width: 700px) {
+  .project-navigation {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .test-selector {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
