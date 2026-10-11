@@ -1,0 +1,214 @@
+/* ========================================
+   GLOBAL STYLES
+======================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  padding: 30px;
+}
+
+/* ========================================
+   DASHBOARD
+======================================== */
+
+.dashboard {
+  width: 100%;
+  max-width: 1100px;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 40px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* ========================================
+   HEADER
+======================================== */
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.badge {
+  display: inline-block;
+  background: #dbeafe;
+  color: #2563eb;
+  padding: 7px 14px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+}
+
+#title {
+  font-size: 30px;
+  color: #0f172a;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* ========================================
+   CHART
+======================================== */
+
+.chart-container {
+  position: relative;
+  width: 100%;
+  overflow-x: auto;
+}
+
+#chart {
+  width: 100%;
+  min-width: 650px;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ========================================
+   DOTS
+======================================== */
+
+.dot {
+  stroke: #ffffff;
+  stroke-width: 1.5px;
+  opacity: 0.85;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.dot:hover {
+  opacity: 1;
+  stroke: #0f172a;
+  stroke-width: 2px;
+}
+
+/* ========================================
+   AXES
+======================================== */
+
+#x-axis path,
+#y-axis path {
+  stroke: #94a3b8;
+}
+
+#x-axis .tick line,
+#y-axis .tick line {
+  stroke: #cbd5e1;
+}
+
+.tick text {
+  fill: #64748b;
+  font-size: 12px;
+}
+
+.axis-label {
+  fill: #475569;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* ========================================
+   LEGEND
+======================================== */
+
+#legend text {
+  fill: #475569;
+  font-size: 12px;
+}
+
+.legend-title {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+/* ========================================
+   TOOLTIP
+======================================== */
+
+#tooltip {
+  position: absolute;
+  background: #0f172a;
+  color: #ffffff;
+  padding: 15px 18px;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 1.7;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 10;
+  max-width: 290px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  transition: opacity 0.15s ease;
+}
+
+.tooltip-name {
+  color: #93c5fd;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.tooltip-info {
+  color: #e2e8f0;
+}
+
+.tooltip-doping {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #334155;
+  color: #fca5a5;
+}
+
+/* ========================================
+   FOOTER
+======================================== */
+
+.dashboard-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #e2e8f0;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media (max-width: 700px) {
+  .dashboard {
+    padding: 20px;
+  }
+
+  #title {
+    font-size: 24px;
+  }
+
+  .dashboard-footer {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
